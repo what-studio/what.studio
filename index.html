@@ -1,10 +1,287 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>What! Studio</title>
-  </head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- FBShare-->
+    <meta property="og:title" content="What! Studio"/>
+    <meta property="og:url" content="http://what.studio"/>
+    <meta property="og:description" content="왓 스튜디오에 오신 것을 환영합니다. 세상 모두가 WHAT?! 하고 놀랄만한 게임을 만들기 위해 모였습니다."/>
+    <meta property="og:image" content="http://what.studio/img/compi_cartoon_logo.png"/>
+    <meta property="og:image:width" content="136" />
+    <meta property="og:image:height" content="164" />
+    <!-- Bootstrap 3-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Spoqa Fonts -->
+    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+    <!-- Template Styles -->
+    <link href="css/style.css" rel="stylesheet" media="screen">
+      </head>
   <body>
-    <h1>What! Studio</h1>
-    <p>Hello, world!</p>
-  </body>
+    
+    <!-- NAVBAR-->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class='icon-logo-what-studio'></i></a>
+          
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a onclick="$('header').animatescroll();">
+              ABOUT US
+              <span class="bar" />
+            </a></li>
+            <li><a onclick="$('.careers').animatescroll();">
+              CAREERS
+              <span class="bar" />
+            </a></li>
+            <li><a onclick="$('.publication').animatescroll();">
+              PUBLICATION
+              <span class="bar" />
+            </a></li>
+            <li><a href="https://github.com/what-studio" target="_blank">
+              REPOSITORY
+              <span class="bar" />
+            </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+     <!-- HEADER  -->   
+    <header>
+      <div id="carousel-example-generic-2" class="carousel slide">
+                
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item bg-durango active">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <img src="img/durango_letter_logo_white.png" class='title-image'/>
+                  <h1>모바일 <strong>개척형</strong> 오픈월드 MMORPG</h1>
+                  <p>
+                    왓스튜디오 만의 지금껏 없었던 모바일 게임. 개발 중. <br/>
+                    <a href="http://durango.nexon.com/" target="_blank" class="btn btn-white">듀랑고 홈페이지 바로가기</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-what">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <img src="img/compi_cartoon_logo.png" class='title-image'/>
+                  <h1><strong>왓 스튜디오</strong>에 오신 것을 환영합니다.</h1>
+                  <p>
+                    세상 모두가 WHAT?! 하고 놀랄만한 게임을 만들기 위해 모였습니다. <br/>
+                    <a href="https://blog.what.st/" target="_blank" class="btn btn-white">DEV BLOG 바로가기</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="copyright">© 2016 NEXON Korea Corp &amp; What Studio, All Rights Reserved.</p>
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
+              </ol>  
+            </div>
+          </div>
+        </div> 
+      </div>
+    </header>
+    
+    <!-- CAREERS-->
+    <section class="careers">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 title">
+            <h1>당신의 <strong>열정</strong>을<br/>
+              당신의 <strong>직업</strong>으로!
+            </h1>
+            <p>
+              왓스튜디오와 함께 할 인재를 찾습니다.<br/>
+              지금 도전하세요!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 card">
+            <i class="icon-circle-game-design"></i>
+            <h2>
+              게임 디자이너 모집
+              <small>16.05.16 ~ 채용시</small>
+            </h2>
+            <a class='btn' target="_blank" href="https://career.nexon.com/user/recruit/notice/noticeView?joinCorp=NX&reNo=20160145">지원하기</a>
+            <ul class='qualification'>
+              <li>지원자격
+                <ul>
+                  <li>게임 디자이너로서 2년 이상의 실무 경력 </li>
+                  <li>원활한 커뮤니케이션 능력과 팀 중심 사고</li>
+                </ul>
+              </li>
+              <li>우대사항
+                <ul>
+                  <li>MMORPG의 대규모 데이터를 관리하고 밸런싱해본 경험</li>
+                  <li>추상적인 아이디어를 실현 가능한 구조로 모델링할 수 있는 능력</li>
+                  <li>경제학 관련 지식과 연결된 MMORPG 경제 구조에 대한 통찰력</li>
+                  <li>게임 라이브에 데이터 분석을 정량적으로 이용해 본 경험</li>
+                  <li>기타 게임 디자인에 학문적이고 체계적으로 접근하는 자세</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 card">
+            <i class="icon-circle-logic"></i>
+            <h2>
+              로직 프로그래머 인재 모집
+              <small>16.02.16 ~ 채용시</small>
+            </h2>
+            <a class='btn' target="_blank" href="https://career.nexon.com/user/recruit/notice/noticeView?joinCorp=NX&reNo=20160058">지원하기</a>
+            <ul class='qualification'>
+              <li>지원자격
+                <ul>
+                  <li>게임 프로그래밍 관련 직종에서 1년 이상의 경력 또는 전산학/컴퓨터공학 관련 4년제 대학 졸업 이상의 학력</li>
+                </ul>
+              </li>
+              <li>우대사항
+                <ul>
+                  <li>복잡한 게임 디자인 요구 조건을 가능한 간결한 설계로 구현할 수 있는 능력</li>
+                  <li>다양한 언어 또는 기술에 빠르게 적응하는 능력</li>
+                  <li>분산 서버 환경에서 로직을 구현해 본 경험</li>
+                  <li>파이썬을 사용해서 본격적인 프로젝트를 완성해 본 경험</li>
+                  <li>서버와 클라이언트를 가로지르는 게임 로직을 개발해 본 경험</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix visible-sm"></div>
+          <div class="col-md-3 col-sm-6 card">
+            <i class="icon-circle-magic-wand"></i>
+            <h2>
+              이펙터 인재 모집
+              <small>16.02.12 ~ 채용시</small>
+            </h2>
+            <a class='btn' target="_blank" href="https://career.nexon.com/user/recruit/notice/noticeView?joinCorp=NX&reNo=20160051">지원하기</a>
+            <ul class='qualification'>
+              <li>지원자격
+                <ul>
+                  <li>2년 이상 경력자</li>
+                  <li>유니티 엔진 사용 경험</li>
+                  <li>원만한 커뮤니케이션이 가능한 분</li>
+                </ul>
+              </li>
+              <li>우대사항
+                <ul>
+                  <li>언리얼 등 여러 엔진 사용 경험이 있는 분</li>
+                  <li>새로운 분야를 연구하기 좋아하는 분</li>
+                  <li>독특한 컨셉으로 씬에 이야기를 불어넣을 수 있는 분</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 card">
+            <i class="icon-circle-video"></i>
+            <h2>
+              영상제작자 모집
+              <small>16.01.13 ~ 채용시</small>
+            </h2>
+            <a class='btn' target="_blank" href="https://career.nexon.com/user/recruit/notice/noticeView?joinCorp=NX&reNo=20160008">지원하기</a>
+            <ul class='qualification'>
+              <li>지원자격
+                <ul>
+                  <li>영상 기획부터 연출, 제작까지 가능하신 분</li>
+                  <li>After Effects, Vegas, Premiere 등 영상 제작 프로그램에 능숙하신 분</li>
+                  <li>모션그래픽 및 편집 타이밍 감각이 뛰어나신 분</li>
+                  <li>레이아웃 및 타이포그래피 디자인 감각 있으신 분</li>
+                  <li>게임 좋아하는 분</li>
+                  <li>원만한 커뮤니케이션이 가능한 분</li>
+                  <li>창의력이 있으며 재미있는 것을 잘 만드시는 분</li>
+                </ul>
+              </li>
+              <li>우대사항
+                <ul>
+                  <li>사운드 컴포징 능력</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATION -->
+    <section class="publication">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 title">
+            <h1><strong>NDC,</strong><br/>
+              2014-16
+            </h1>
+            <p>
+              왓스튜디오의 문화, 생각, 노하우를 보고 싶다면.<br/>
+              왓스튜디오는 NDC에 적극적으로 참여하고 있습니다.
+            </p>
+          </div>
+          <div class="row grid" id="slides">
+            <div class="col-md-4 col-sm-6 grid-sizer"></div>
+          </div>
+          <div id="load-more">
+            <span class="btn">MORE</span>
+          </div>
+          <div id="slide-template" style="display:none">
+            <div class="col-md-4 col-sm-6 no-padding grid-item">
+              <div class="col-md-12 card-wrap">
+                <div class='card-title'>
+                  <div class='speaker'>{profile}</div>
+                  <h2>
+                    <a href="{link}" target="_blank">{title}</a>
+                    <small>{speaker} | {type}</small>
+                  </h2>
+                </div>
+                <p class='card-description'>{description}</p>
+                <a href="{link}" target="_blank" class="preview">
+                  {slide}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">© 2016 NEXON Korea Corp &amp; What Studio, All Rights Reserved.</div>
+      </div>    
+    </section>
+     
+   
+   <!-- JAVASCRIPT -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
 </html>
