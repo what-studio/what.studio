@@ -345,6 +345,7 @@ header .copyright{
     font-size: 12px;
     color: #888;
     line-height: 19px;
+    margin-bottom:0;
 }
 
 .publication .card-wrap .speaker { 
@@ -384,7 +385,7 @@ header .copyright{
 }
 .publication .card-wrap .preview {
 	width:100%;
-	display: inline-block;
+	display: block;
 	position:relative;
     overflow: hidden;
 }
@@ -393,6 +394,10 @@ header .copyright{
 	position:absolute;
 	top: 0;
 	left: 0;
+}
+.publication .card-wrap .preview img,
+.publication .card-wrap .preview .dummy-rectangle{
+    margin-top: 1em;
 }
 .publication #load-more {
 	width:100%;
