@@ -22,21 +22,13 @@ $(window).load(function () {
 // Fixed navbar
 $(window).scroll(function () {
     //animations    
-    $('header').each(function(){
-        var imagePos = $(this).offset().top;
-        var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+35) {
-            $('.navbar-default').removeClass("fixed-to-top");
-        }       
-    });
-    
-    $('.careers').each(function(){
-        var imagePos = $(this).offset().top;
-        var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+35) {
-            $('.navbar-default').addClass('fixed-to-top');
-        }       
-    });
+    var headerPos = $('.careers').offset().top;
+    var topOfWindow = $(window).scrollTop();
+    if(headerPos < topOfWindow+35){
+        $('.navbar-default').addClass('fixed-to-top');
+    }else{
+        $('.navbar-default').removeClass("fixed-to-top");
+    }
 });
 
 var masonryInit = false
