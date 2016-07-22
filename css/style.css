@@ -15,30 +15,32 @@ _/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/
 @import "what-icons.css";
 @import "animate.min.css";
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700|Titillium+Web:400,600,700,400italic,600italic,700italic);
+
 /*-----------------------------------------------------------------------------------*/
 /* GENERAL
 /*-----------------------------------------------------------------------------------*/
 
 body{
 	text-align: center;
-	font-family: 'Spoqa Han Sans', 'Sans-serif';
-	font-weight: 300;
+	font-family: 'Noto Sans KR', 'Sans-serif';
+	font-weight: 100;
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Spoqa Han Sans', 'Sans-serif';
-	font-weight: 300;
+	font-family: 'Noto Sans KR', 'Sans-serif';
+	font-weight: 100;
 }
 h1 > strong, h2 > strong, h3 > strong, h4 > strong, h5 > strong, h6 > strong{
-	font-weight: 400;
+	font-weight: 500;
 }
 
 p{
 	font-size: 1.2em;
 }
-
-.lead{
-	font-weight: 300;
+.number {
+    font-family: 'Lato';
 }
 
 button {
@@ -81,7 +83,7 @@ header p, .careers p, .publication p{
 	margin: 1em 0;
 }
 .btn{
-  border: 1px solid #000;
+  border: 1px solid #333;
   font-weight: 300;
   color:#000;
   font-size: 1.1em;
@@ -108,6 +110,8 @@ header p, .careers p, .publication p{
 }
 
 .copyright{
+    font-family: 돋움, Dotum;
+    opacity: 0.6;
     text-align: center;
     width: 100%;
     font-size: 0.9em;
