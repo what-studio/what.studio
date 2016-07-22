@@ -34,10 +34,7 @@ $(window).scroll(function () {
 var masonryInit = false
 function addSlides() {
     var count = 10
-    var img = $('<img />', { 
-               src: '/img/compi_cartoon_logo.png', 
-               width: '100%'
-             })
+    var img = $('<img />', { width: '100%' })
     var dummy = '<div class="dummy-rectangle"><div class="dummy"></div><div class="rectangle"></div></div>'
     while(count > 0){
         var index = slides.length -1
@@ -51,9 +48,7 @@ function addSlides() {
                      .replace(/{description}/g, slides[index].description)
                      .replace(/{link}/g, slides[index].link || slides[index].pressLink)
 
-        if(slides[index].profile){
-            img = img.attr('src', slides[index].profile)
-        }
+        img = img.attr('src', slides[index].profile || '/img/no_image.png')
         slide = slide.replace(/{profile}/g, img.prop('outerHTML'))
 
         var slideElem = ''
