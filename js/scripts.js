@@ -59,11 +59,15 @@ function addSlides() {
         slide = slide.replace(/{slide}/g, slideElem)
 
         // append to list
+        var elems = $.parseHTML(slide)
+        $(elems).find('.card-description').on("click", function(e){
+            $(this).hasClass('ellipsis') ? $(this).removeClass('ellipsis'): $(this).addClass('ellipsis')
+            $('.grid').masonry()
+        })
         if(!masonryInit){
-            $('#slides').append($.parseHTML(slide))
+            $('#slides').append(elems)
         }else{
-            var $elems = $.parseHTML(slide)
-            $('.grid').append( $elems ).masonry('appended', $elems, true);
+            $('.grid').append(elems).masonry('appended', elems, true);
         }
         slides.pop()
         count--

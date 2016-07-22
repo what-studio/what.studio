@@ -346,6 +346,15 @@ header .copyright{
     color: #888;
     line-height: 19px;
     margin-bottom:0;
+    cursor: pointer;
+}
+.publication .card-description.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+ 	display: -webkit-box;
+	-webkit-box-orient: vertical;  
 }
 
 .publication .card-wrap .speaker { 
