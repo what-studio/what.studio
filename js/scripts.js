@@ -90,3 +90,9 @@ function addSlides() {
 $('header .carousel').carousel({
   interval: 3000
 })
+$("header .carousel").swiperight(function() {  
+    $(this).carousel('prev');  
+});  
+$("header .carousel").swipeleft(function() {  
+    $(this).carousel('next');  
+});  
