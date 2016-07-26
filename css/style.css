@@ -43,6 +43,9 @@ p{
     font-family: 'Lato';
 }
 
+.container {
+	max-width: 1300px;
+}
 button {
 	display: inline-block;
 	margin-bottom: 0;
