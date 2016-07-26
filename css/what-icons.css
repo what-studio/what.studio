@@ -2,35 +2,99 @@
 
 @font-face {
     font-family: 'what-icons';
-    src: url('../what-icons/what-icons.eot');
-    src: url('../what-icons/what-icons.eot?#iefix') format('embedded-opentype'),
-         url('../what-icons/what-icons.woff') format('woff'),
-         url('../what-icons/what-icons.ttf') format('truetype'),
-         url('../what-icons/what-icons.svg#what') format('svg');
+    src:  url('../what-icons/what-icons.eot?al4akf');
+    src:  url('../what-icons/what-icons.eot?al4akf#iefix') format('embedded-opentype'),
+    url('../what-icons/what-icons.ttf?al4akf') format('truetype'),
+    url('../what-icons/what-icons.woff?al4akf') format('woff'),
+    url('../what-icons/what-icons.svg?al4akf#what-icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-[class*='icon-']:before{
-  display: inline-block;
-  font-family: 'what-icons';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
-}
-.icon-circle-game-design:before {
-    content: "\e900";
-}
-.icon-circle-logic:before {
-    content: "\e901";
-}
-.icon-circle-magic-wand:before {
-    content: "\e902";
-}
-.icon-circle-video:before {
-    content: "\e903";
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'what-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }
 .icon-logo-what-studio:before {
+    content: "\e900";
+}
+.icon-circle-game-design:before {
+    content: "\e901";
+}
+.icon-circle-logic .path1:before {
+    content: "\e902";
+    color: rgba(255, 214, 27);
+}
+.icon-circle-logic .path2:before {
+    content: "\e903";
+    position:absolute;
+    top:0;
+    right:0;
+    margin-left: -0.9912109375em;
+    color: rgb(255, 214, 27);
+}
+.icon-circle-magic-wand .path1:before {
     content: "\e904";
+    color: rgba(255, 214, 27);
+}
+.icon-circle-magic-wand .path2:before {
+    content: "\e905";
+    position:absolute;
+    top:0;
+    right:0;
+    margin-left: -0.9912109375em;
+    color: rgba(255, 214, 27);
+}
+.icon-circle-magic-wand .path3:before {
+    content: "\e906";
+    position:absolute;
+    top:0;
+    right:0;
+    margin-left: -0.9912109375em;
+    color: rgba(255, 214, 27);
+}
+.icon-circle-magic-wand .path4:before {
+    content: "\e907";
+    position:absolute;
+    top:0;
+    right:0;
+    margin-left: -0.9912109375em;
+    color: rgba(255, 214, 27);
+}
+.icon-circle-magic-wand .path5:before {
+    content: "\e908";
+    position:absolute;
+    top:0;
+    right:0;
+    margin-left: -0.9912109375em;
+    color: rgb(255, 214, 27);
+}
+.icon-circle-video .path1:before {
+    content: "\e909";
+    color: rgba(255, 214, 27);
+}
+.icon-circle-video .path2:before {
+    content: "\e90a";
+    position:absolute;
+    top:0;
+    right:0;
+    margin-left: -0.9912109375em;
+    color: rgba(255, 214, 27);
+}
+.icon-circle-video .path3:before {
+    content: "\e90b";
+    position:absolute;
+    top:0;
+    right:0;
+    margin-left: -0.9912109375em;
+    color: rgb(255, 214, 27);
 }
