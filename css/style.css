@@ -270,26 +270,31 @@ header .copyright{
 .careers h2{
     font-size: 1.4em;
     font-weight: 400;
+    margin:20px 0 10px;
 } 
 .careers h2 small{
+    font-family: 돋움, Dotum;
     font-weight: 300;
     display: block;
-    font-size: 0.7em;
-    color: #000;
+    font-size: 0.6em;
+    color: #666;
     line-height: 1.4em;
+    margin-top: 0.5em;
 
 }
 .careers .btn{
-    font-weight: 400;
-    margin: 0;
+    font-weight: 300;
+    margin: 10px 0 20px;
     padding: 5px 15px;
+    border: 1px solid #666;
+
 }
 .careers .card {
     margin-bottom: 30px;
 }
-.careers .card > i{
+.careers .card i.icon{
     color: #ffd61b;
-    font-size: 5em;
+    font-size: 4em;
     margin: 0 0 -35px 0;
     display: inline-block;
 }
@@ -371,6 +376,7 @@ header .copyright{
 	display: table-cell;
     vertical-align: middle; 
     font-size: 1.3em;
+    line-height: 1.3em;
     padding-left:10px;
     font-weight: 400;
 }
