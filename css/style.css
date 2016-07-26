@@ -299,29 +299,21 @@ header .copyright{
 	margin-top: 3px;
 	font-size: 4em;
 }
+
 .careers ul.qualification{
-	margin: 1em 0;
-}
-.careers ul.qualification > li{
-	margin: 1em 0 0;
-}
-.careers ul{
 	padding: 0;
-	font-weight: 600;
 	list-style: none;
-}
-.careers ul.qualification ul{
 	font-weight:400;
     display: table;
 	font-family: 돋움, Dotum;
     font-size: 12px;
-    color: #888;
+    color: #999;
     line-height: 19px;
 }
-.careers ul.qualification ul li{
+.careers ul.qualification li{
     display: table-row;
 }
-.careers ul.qualification ul li:before{
+.careers ul.qualification li:before{
     display: table-cell;
     content: "•";
     color: #ffd61b;
