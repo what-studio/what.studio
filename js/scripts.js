@@ -84,14 +84,3 @@ function addSlides() {
         masonryInit = true
     }
 }
-
-// Header Carousel
-$('header .carousel').carousel({
-  interval: 3000
-})
-$("header .carousel").swiperight(function() {  
-    $(this).carousel('prev');  
-});  
-$("header .carousel").swipeleft(function() {  
-    $(this).carousel('next');  
-});  
