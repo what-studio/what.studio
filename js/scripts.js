@@ -53,7 +53,7 @@ function addSlides() {
                      .replace(/{speaker}/g, slides[index].speaker)
                      .replace(/{type}/g, slides[index].type)
                      .replace(/{description}/g, slides[index].description)
-                     .replace(/{link}/g, slides[index].link || slides[index].pressLink)
+                     .replace(/{link}/g, slides[index].link || slides[index].pressLink || 'javascript:false')
 
         img = img.attr('src', slides[index].profile || '/img/no_image.png')
         slide = slide.replace(/{profile}/g, img.prop('outerHTML'))
