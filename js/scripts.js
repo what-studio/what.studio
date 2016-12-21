@@ -8,7 +8,7 @@ $(document).ready(function() {
     $.getJSON('ndc.json', function(data){
         slides = data
         addSlides()
-        $("#load-more .btn").bind("click", addSlides);
+        $('#load-more .btn').bind('click', addSlides);
     });
     $('header').addClass('visibility');
 
@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 //carousel animation
 $(window).load(function () {
-    $('header').addClass("animated fadeIn");
+    $('header').addClass('animated fadeIn');
 });
 
 // Fixed navbar
@@ -27,7 +27,7 @@ $(window).scroll(function () {
     if(headerPos < topOfWindow+35){
         $('.navbar-default').addClass('fixed-to-top');
     }else{
-        $('.navbar-default').removeClass("fixed-to-top");
+        $('.navbar-default').removeClass('fixed-to-top');
     }
 });
 
@@ -60,7 +60,7 @@ function addSlides() {
 
         // append to list
         var elems = $.parseHTML(slide)
-        $(elems).find('.card-description').on("click", function(e){
+        $(elems).find('.card-description').on('click', function(e){
             $(this).hasClass('ellipsis') ? $(this).removeClass('ellipsis'): $(this).addClass('ellipsis')
             $('.grid').masonry()
         })
@@ -73,7 +73,7 @@ function addSlides() {
         count--
     }
     if(slides.length <= 0) {
-        $("#load-more").remove()
+        $('#load-more').remove()
     }
     if(!masonryInit){
         $('.grid').masonry({
