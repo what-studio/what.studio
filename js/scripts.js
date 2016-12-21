@@ -17,7 +17,7 @@ $(document).ready(function() {
         : (navigator.language || navigator.userLanguage)
     if(language.toLowerCase().indexOf('ko') > -1 ||
        language.toLowerCase().indexOf('kr') > -1){
-        $('#blog-link').attr('href', 'https://kr.blog.durango.what.studio')
+        $('#blog-link').attr('href', 'https://ko.blog.durango.what.studio')
     }
 });
 
