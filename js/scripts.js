@@ -12,6 +12,13 @@ $(document).ready(function() {
     });
     $('header').addClass('visibility');
 
+    var language = navigator.languages
+        ? navigator.languages[0]
+        : (navigator.language || navigator.userLanguage)
+    if(language.toLowerCase().indexOf('ko') > -1 ||
+       language.toLowerCase().indexOf('kr') > -1){
+        $('#blog-link').attr('href', 'https://kr.blog.durango.what.studio')
+    }
 });
 
 //carousel animation
