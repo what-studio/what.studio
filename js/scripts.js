@@ -29,7 +29,7 @@ $(window).load(function () {
 // Fixed navbar
 $(window).scroll(function () {
     //animations    
-    var headerPos = $('.careers').offset().top;
+    var headerPos = $('#careers').offset().top;
     var topOfWindow = $(window).scrollTop();
     if(headerPos < topOfWindow+35){
         $('.navbar-default').addClass('fixed-to-top');

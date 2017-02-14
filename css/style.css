@@ -78,10 +78,10 @@ button {
 
 
 
-header h1, .careers h1, .publication h1{
+header h1, #careers h1, .publication h1{
 	font-size: 4em;
 }
-header p, .careers p, .publication p{
+header p, #careers p, .publication p{
 	font-size:1.4em;
 	margin: 1em 0;
 }
@@ -249,30 +249,30 @@ header .copyright{
 /* CAREER
 /*-----------------------------------------------------------------------------------*/
 
-.careers{
+#careers{
 	overflow: hidden;
 	padding: 100px 0px 100px 0px;
 	min-height: 200px;
 	text-align: left;
 }
 
-.careers .title{
+#careers .title{
 	margin: 0 0 3em 0;
 }
 
-.careers button.app-store{
+#careers button.app-store{
 	width: 152px;
 	height: 52px;
 	background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
 	color: white;
 }
 
-.careers h2{
+#careers h2{
     font-size: 1.4em;
     font-weight: 400;
     margin:20px 0 10px;
 } 
-.careers h2 small{
+#careers h2 small{
     font-family: 돋움, Dotum;
     font-weight: 300;
     display: block;
@@ -282,17 +282,17 @@ header .copyright{
     margin-top: 0.5em;
 
 }
-.careers .btn{
+#careers .btn{
     font-weight: 300;
     margin: 10px 0 20px;
     padding: 5px 15px;
     border: 1px solid #666;
 
 }
-.careers .card {
+#careers .card {
     margin-bottom: 30px;
 }
-.careers .card i.icon{
+#careers .card i.icon{
     color: #ffd61b;
     font-size: 4em;
     margin: 0 0 -35px 0;
@@ -300,12 +300,12 @@ header .copyright{
 }
 
 
-.careers span.glyphicon, .careers i{
+#careers span.glyphicon, #careers i{
 	margin-top: 3px;
 	font-size: 4em;
 }
 
-.careers ul.qualification{
+#careers ul.qualification{
 	padding: 0;
 	list-style: none;
 	font-weight:400;
@@ -315,10 +315,10 @@ header .copyright{
     color: #999;
     line-height: 19px;
 }
-.careers ul.qualification li{
+#careers ul.qualification li{
     display: table-row;
 }
-.careers ul.qualification li:before{
+#careers ul.qualification li:before{
     display: table-cell;
     content: "•";
     color: #ffd61b;
@@ -496,10 +496,10 @@ header .copyright{
 }
 /* Relative Custom */
 @media (max-width:1200px){
-	header h1, .careers h1, .publication h1{
+	header h1, #careers h1, .publication h1{
 		font-size: 3.4em;
 	}
-	header p, .careers p, .publication p{
+	header p, #careers p, .publication p{
 		font-size:1.3em;
 	}
 	.btn {
@@ -511,10 +511,10 @@ header .copyright{
 	header .title-image {
 		margin: 2em 0;
 	}
-	header h1, .careers h1, .publication h1{
+	header h1, #careers h1, .publication h1{
 		font-size: 3em;
 	}
-	header p, .careers p, .publication p{
+	header p, #careers p, .publication p{
 		font-size:1.1em;
 	}
 	.btn {
@@ -552,10 +552,10 @@ header .copyright{
 	header .bg-durango, header .bg-what {
 		min-height: 640px;
 	}
-	header h1, .careers h1, .publication h1{
+	header h1, #careers h1, .publication h1{
 		font-size: 2.1em;
 	}
-	header p, .careers p, .publication p{
+	header p, #careers p, .publication p{
 		font-size:0.9em;
 	}
 	.btn {
