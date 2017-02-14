@@ -40,15 +40,15 @@
               BLOG
               <span class="bar" />
             </a></li>
-            <li><a onclick="$('header').animatescroll();">
+            <li><a onclick="$('header').animatescroll({'onScrollStart': setHash('')});">
               ABOUT US
               <span class="bar" />
             </a></li>
-            <li><a onclick="$('#careers').animatescroll();">
+            <li><a onclick="$('#careers').animatescroll({'onScrollStart': setHash('careers')});">
               CAREERS
               <span class="bar" />
             </a></li>
-            <li><a onclick="$('.publication').animatescroll();">
+            <li><a onclick="$('#publication').animatescroll({'onScrollStart': setHash('publication')});">
               PUBLICATION
               <span class="bar" />
             </a></li>

@@ -38,6 +38,10 @@ $(window).scroll(function () {
     }
 });
 
+function setHash (name) {
+    window.location.hash = name
+}
+
 var masonryInit = false
 function addSlides() {
     var count = 10
