@@ -5,7 +5,8 @@ var slideTemplate = null
 $(document).ready(function() {
     slideTemplate = $('#slide-template').html().trim()
     $('#slide-template').remove()
-    $.getJSON('ndc.json', function(data){
+    var now = new Date()
+    $.getJSON('ndc.json?t='+now.getTime(), function(data){
         slides = data
         addSlides()
         $('#load-more .btn').bind('click', addSlides);
