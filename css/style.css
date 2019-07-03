@@ -438,6 +438,31 @@ header .copyright{
 	right: 0;
 }
 
+article {
+  text-align: left;
+  margin-top: 6em;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  color: black;
+}
+
+article .title h1 {
+  font-size: 2.0em;
+}
+
+article h1 {
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+article h2 {
+  font-size: 1.5em;
+}
+
+footer {
+  margin: 1.5rem;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
