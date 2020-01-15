@@ -1,16 +1,16 @@
-/* 
+/*
 
 
-    _/                                  _/            
-   _/          _/_/_/  _/_/_/      _/_/_/  _/    _/   
-  _/        _/    _/  _/    _/  _/    _/  _/    _/    
- _/        _/    _/  _/    _/  _/    _/  _/    _/     
-_/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/      
-                                             _/       
-                                        _/_/          
-                                                 
-											   V 1.0                                  
-                                  													 
+    _/                                  _/
+   _/          _/_/_/  _/_/_/      _/_/_/  _/    _/
+  _/        _/    _/  _/    _/  _/    _/  _/    _/
+ _/        _/    _/  _/    _/  _/    _/  _/    _/
+_/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/
+                                             _/
+                                        _/_/
+
+											   V 1.0
+
                                   													 */
 @import "what-icons.css";
 @import "animate.min.css";
@@ -193,7 +193,7 @@ nav.navbar.fixed-to-top .navbar-nav>li>a .bar{
 }
 
 /*-----------------------------------------------------------------------------------*/
-/* HEADER 
+/* HEADER
 /*-----------------------------------------------------------------------------------*/
 
 
@@ -271,7 +271,7 @@ header .copyright{
     font-size: 1.4em;
     font-weight: 400;
     margin:20px 0 10px;
-} 
+}
 #careers h2 small{
     font-family: 돋움, Dotum;
     font-weight: 300;
@@ -358,11 +358,11 @@ header .copyright{
     line-clamp: 3;
     -webkit-line-clamp: 3;
  	display: -webkit-box;
-	-webkit-box-orient: vertical;  
+	-webkit-box-orient: vertical;
 }
 
-#publication .card-wrap .speaker { 
-	width: 50px; 
+#publication .card-wrap .speaker {
+	width: 50px;
 	display: table-cell;
     vertical-align: middle;
 	padding-bottom:5px;
@@ -374,7 +374,7 @@ header .copyright{
 #publication .card-wrap h2{
 	font-family: 돋움, Dotum;
 	display: table-cell;
-    vertical-align: middle; 
+    vertical-align: middle;
     font-size: 1.3em;
     line-height: 1.3em;
     padding-left:10px;
@@ -517,7 +517,6 @@ footer {
 	nav.navbar .navbar-collapse .navbar-nav>li>a:focus{
 		background-color: rgba(0,0,0,0.1);
 	}
-	
 }
 /* Relative Custom */
 @media (max-width:1200px){
@@ -597,5 +596,5 @@ footer {
 	    font-size: 0.7em;
 	}
 
-		
+
 }

@@ -1,4 +1,4 @@
-// toggle visibility for css3 animations 
+// toggle visibility for css3 animations
 var slides = null
 var slideTemplate = null
 
@@ -29,8 +29,8 @@ $(window).load(function () {
 
 // Fixed navbar
 $(window).scroll(function () {
-    //animations    
-    var headerPos = $('#careers').offset().top;
+    //animations
+    var headerPos = $('#publication').offset().top;
     var topOfWindow = $(window).scrollTop();
     if(headerPos < topOfWindow+35){
         $('.navbar-default').addClass('fixed-to-top');
